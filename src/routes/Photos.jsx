@@ -52,6 +52,7 @@ const Photos = () => {
       console.log(error)
     } finally {
       setLoading(false)
+      setError(null)
     }
   }
 
