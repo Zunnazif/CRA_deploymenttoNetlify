@@ -31,6 +31,7 @@ const EditPhoto = () => {
       setImageUrl(json.imageUrl)
       setCaptions(json.captions)
       setLoading(false)
+      setError(null)
     })
   }, [id]);
 
